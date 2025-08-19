@@ -39,6 +39,10 @@ h2 {
   padding: 30px;
 }
 
+.carrousel::-webkit-scrollbar {
+  display: none;
+}
+
 img {
   width: calc(100% / 6.5);
 }
