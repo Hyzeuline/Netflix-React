@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: #e50914;
+  font-family: "Bebas Neue", Impact, "Anton", "Arial Narrow", Arial, sans-serif;
+  font-style: Style-ConcaveBB;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+header {
+  width: 1024px;
+  height: 63px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.carrousel {
+  display: flex;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  padding: 30px;
+}
+
+img {
+  width: calc(100% / 6.5);
+}
