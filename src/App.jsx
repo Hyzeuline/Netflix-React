@@ -4,10 +4,10 @@ import Section from "./Components/Section";
 
 function App() {
   return (
-    <body>
+    <>
       <Header />
       <Section />
-    </body>
+    </>
   );
 }
 
